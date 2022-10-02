@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>math.js operation</title>
+</head>
+<body>
+    <!-- <div>
+        <h3>Average</h3>
+        <input type="text" id="ave">
+        <button onclick="show()">finde Average</button>
+        <h5 id="showave"></h5>
+    </div> -->
+    <h1>Log</h1>
+    <form onsubmit="log2(); return false;">
+        <input type="number" step="0.1" id="log"> <button type="submit">Log2</button>
+        <br>
+    </form>
+    <h3 id="resultLog"></h3>
+   
+   
+   
+    <h1>Simplify</h1>
+    <form onsubmit="simplify(); return false;">
+        <input type="text"  id="doSimplify" placeholder="x^2 + x + 3 + x^2"> 
+        <button type="submit">sub</button>
+        <br>
+    </form>
+    <h3 id="resultSimplify"></h3>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.2.1/math.min.js" integrity="sha512-P/tfgnVm6RM6aQU1tpWKjDPF6otdDVURF8dlET8Icu5IHJ4261mE6tXhh9lumrRhIOCzzi8QpaPQ2urpY6sK8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
