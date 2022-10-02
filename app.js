@@ -24,3 +24,16 @@ let simplify = ()=>{
     console.log(findSimplify)
     show.innerHTML = "Simplify of "+input+' is ===== '+ findSimplify;
 }
+
+
+
+let squareRoot = ()=>{
+    let input = +document.querySelector("#square").value;
+    let show = document.querySelector('#resultSquare');
+    let findSquare = math.square(input);
+    console.log(findSimplify)
+    show.innerHTML = "Simplify of "+input+' is ===== '+ findSquare;
+}
+
+
+
